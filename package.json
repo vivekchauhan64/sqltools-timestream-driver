@@ -1,14 +1,15 @@
 {
-  "name": "driver-template",
-  "displayName": "Driver Template",
-  "description": "Driver Template to be used as base for new VSCode SQLTools drivers",
+  "name": "sqltools-timestream-driver",
+  "displayName": "SQLTools AWS Timestream Driver",
+  "description": "SQLTools AWS Timestream Driver",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.42.0"
   },
-  "publisher": "mtxr",
+  "publisher": "vivekchauhan",
   "license": "MIT",
-  "repository": {},
+  "repository": {"type": "git",
+    "url": "https://github.com/vivekchauhan64/sqltools-timestream-driver"},
   "bugs": {},
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -16,8 +17,10 @@
     "watch": "tsc -watch -p ./"
   },
   "keywords": [
-    "driver-template",
-    "sqltools-driver"
+    "timestream",
+    "sqltools-driver",
+    "sqltools",
+    "driver"
   ],
   "categories": [
     "Programming Languages",
